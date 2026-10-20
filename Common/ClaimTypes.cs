@@ -5,5 +5,6 @@ namespace AlfaHackaton.Auth.Common;
 [JsonConverter(typeof(JsonStringEnumConverter))]
 public enum ClaimTypes
 {
-    UserId
+    UserId,
+    CompanyId
 }
